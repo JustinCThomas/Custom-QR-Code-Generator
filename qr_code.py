@@ -3,7 +3,7 @@ from PIL import Image
 
 # Place the logo that you want to use in the same folder and change this field to that image
 
-logo_img = input('Enter logo name to add to QR code (leave blank for Tux the Penguin with a flag: ')
+logo_img = input('Enter logo name to add to QR code (leave blank for Tux the Penguin with a flag): ')
 
 if logo_img == '':
 	logo_img = 'tux_flag.png'
